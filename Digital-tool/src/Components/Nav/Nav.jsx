@@ -20,7 +20,7 @@ const Nav = ({ carts }) => {
                         </ul>
                     </div>
                     <a className="md:text-3xl text-xl font-extrabold bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent ">
-                        DigiTools
+                        DigitalTools
                     </a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
