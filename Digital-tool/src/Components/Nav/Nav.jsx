@@ -1,6 +1,5 @@
 import React from 'react';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
-
 const Nav = ({ carts }) => {
     return (
         <div className=' bg-[#f2f2f2a1] shadow-sm'>
