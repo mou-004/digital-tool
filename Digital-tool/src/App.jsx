@@ -21,7 +21,6 @@ const fetchPromse = async () => {
 
 const dataPromse = fetchPromse()
 
-
 function App() {
   const [active, setActive] = useState('Products')
   const [carts, setCarts] = useState([])
