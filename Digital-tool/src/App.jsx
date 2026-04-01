@@ -62,23 +62,30 @@ function App() {
     });
   }
 
-
-
   return (
     <div >
       <Suspense fallback={<Loading></Loading>}>
         <Nav carts={carts}></Nav>
         <Hero></Hero>
         <Performance></Performance>
+
         <TabBar handleProducts={handleProducts} handleCart={handleCart} active={active} carts={carts}></TabBar>
+
         {
           active === 'Products' ? <>
             <Tools handleAddCart={handleAddCart} dataPromse={dataPromse} carts={carts}></Tools>
+
+            {}
+            <GetStartedSteps />
+
             <PricingSection></PricingSection>
             <CallToAction></CallToAction>
           </>
-            : active === 'Cart' ? <Cart carts={carts} setCarts={setCarts}></Cart > : ''
+            : active === 'Cart'
+              ? <Cart carts={carts} setCarts={setCarts}></Cart>
+              : ''
         }
+
         <Footer></Footer>
       </Suspense>
     </div >
