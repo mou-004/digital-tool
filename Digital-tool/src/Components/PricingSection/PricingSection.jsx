@@ -2,7 +2,6 @@ import React from 'react';
 import { BiCheck } from 'react-icons/bi';
 import PricingCard from './PricingCard';
 
-
 const PricingSection = () => {
     const plans = [
         {
