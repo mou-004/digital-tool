@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="bg-gradient-to-b from-white via-[#f9f9ff] to-white">
       <div className="max-w-7xl mx-auto px-4 py-12 md:py-20 flex flex-col md:flex-row items-center gap-10">
 
-  
+
         <div className="flex-1">
 
       
