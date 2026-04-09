@@ -1,7 +1,7 @@
 # 🛠 DigiTools – Modern Digital Tools Platform
 A modern digital tools platform built with **React.js** and **Tailwind CSS**, allowing users to browse, add to cart, and manage digital products easily.
 ## 🔗 Live Demo
-[Click here to see it live](https://your-live-link.com)
+ https://mou-004.github.io/digital-tool/
 ---
 ## 💻 Overview
 DigiTools is a responsive web application where users can explore digital products, add them to cart, remove items, and complete checkout.  
